@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SS14" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SS14" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libfmodex.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libSDL2.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\pdcurses.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SS14" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/SDL-1.2.15/include" />
+			<Add directory="C:/Program Files (x86)/SDL_gfx/include" />
+			<Add directory="C:/Program Files (x86)/SDL_ttf-2.0.11/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL" />
+			<Add option="-lsdlgfx" />
+			<Add option="-lsdl_ttf" />
+			<Add directory="C:/Program Files (x86)/SDL-1.2.15/lib" />
+			<Add directory="C:/Program Files (x86)/SDL_gfx/lib" />
+			<Add directory="C:/Program Files (x86)/SDL_ttf-2.0.11/lib/x86" />
+		</Linker>
+		<Unit filename="src/Bateau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Bateau.h" />
+		<Unit filename="src/Constantes.h" />
+		<Unit filename="src/Jeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Jeu.h" />
+		<Unit filename="src/Joueur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Joueur.h" />
+		<Unit filename="src/Manche.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Manche.h" />
+		<Unit filename="src/Musique.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Musique.h" />
+		<Unit filename="src/Position.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Position.h" />
+		<Unit filename="src/SDLjeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SDLjeu.h" />
+		<Unit filename="src/SDLmain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Sprite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Sprite.h" />
+		<Unit filename="src/TableauDynamiqueEnnemi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/TableauDynamiqueEnnemi.h" />
+		<Unit filename="src/TableauDynamiqueTir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/TableauDynamiqueTir.h" />
+		<Unit filename="src/Terrain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Terrain.h" />
+		<Unit filename="src/Tir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Tir.h" />
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ressources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="src/testnCurses.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/testnCurses.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
