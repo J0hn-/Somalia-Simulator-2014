@@ -1,0 +1,29 @@
+#ifndef CONSTANTES_H_INCLUDED
+#define CONSTANTES_H_INCLUDED
+
+#ifndef MANCHE_DE_DEBUT
+#define MANCHE_DE_DEBUT 28
+#endif
+
+#ifndef NOMBRE_SPRITE_JOUEUR
+#define NOMBRE_SPRITE_JOUEUR 5
+#endif
+#ifndef NOMBRE_SPRITE_ENNEMI
+#define NOMBRE_SPRITE_ENNEMI 9
+#endif
+#ifndef NOMBRE_SPRITE_TIR
+#define NOMBRE_SPRITE_TIR 9
+#endif
+
+#ifndef NOMBRE_MUSIQUE
+#define NOMBRE_MUSIQUE 6
+#endif
+#ifndef NOMBRE_SON
+#define NOMBRE_SON 5
+#endif
+
+#ifndef TAILLE_CASE
+#define TAILLE_CASE 10
+#endif
+
+#endif
